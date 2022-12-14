@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18" class="java.beans.XMLDecoder">
+ <object class="Var10.Lab6.Bank" id="Bank0">
+  <void property="accountList">
+   <void method="add">
+    <object class="Var10.Lab6.UsualAccount">
+     <void property="balance">
+      <int>12345</int>
+     </void>
+     <void property="number">
+      <string>00001</string>
+     </void>
+     <void property="pin_code">
+      <string>0000</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.UsualAccount">
+     <void property="balance">
+      <int>654</int>
+     </void>
+     <void property="number">
+      <string>00002</string>
+     </void>
+     <void property="pin_code">
+      <string>1111</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.UsualAccount">
+     <void property="balance">
+      <int>2341</int>
+     </void>
+     <void property="number">
+      <string>00003</string>
+     </void>
+     <void property="pin_code">
+      <string>2222</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.UsualAccount">
+     <void property="balance">
+      <int>10345</int>
+     </void>
+     <void property="number">
+      <string>00004</string>
+     </void>
+     <void property="pin_code">
+      <string>3333</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.UsualAccount">
+     <void property="balance">
+      <int>10554</int>
+     </void>
+     <void property="number">
+      <string>00005</string>
+     </void>
+     <void property="pin_code">
+      <string>4444</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.UsualAccount">
+     <void property="balance">
+      <int>123432</int>
+     </void>
+     <void property="number">
+      <string>00006</string>
+     </void>
+     <void property="pin_code">
+      <string>5555</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.PreferentialAccount">
+     <void property="balance">
+      <int>2343</int>
+     </void>
+     <void property="number">
+      <string>00007</string>
+     </void>
+     <void property="pin_code">
+      <string>6666</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.PreferentialAccount">
+     <void property="balance">
+      <int>34543</int>
+     </void>
+     <void property="number">
+      <string>00008</string>
+     </void>
+     <void property="pin_code">
+      <string>7777</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.PreferentialAccount">
+     <void property="balance">
+      <int>87843</int>
+     </void>
+     <void property="number">
+      <string>00009</string>
+     </void>
+     <void property="pin_code">
+      <string>8888</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.PreferentialAccount">
+     <void property="balance">
+      <int>5673</int>
+     </void>
+     <void property="number">
+      <string>00010</string>
+     </void>
+     <void property="pin_code">
+      <string>9999</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="atmList">
+   <void method="add">
+    <object class="Var10.Lab6.ATM">
+     <void property="ID">
+      <int>111</int>
+     </void>
+     <void property="address">
+      <string>Eliseeva, 12</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.ATM">
+     <void property="ID">
+      <int>222</int>
+     </void>
+     <void property="address">
+      <string>Usova, 34</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Var10.Lab6.ATM">
+     <void property="ID">
+      <int>333</int>
+     </void>
+     <void property="address">
+      <string>Komarova, 4</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="name">
+   <string>Sberbank</string>
+  </void>
+ </object>
+</java>
