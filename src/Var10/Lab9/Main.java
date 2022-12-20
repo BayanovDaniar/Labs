@@ -96,7 +96,7 @@ public class Main {
             public void actionPerformed(ActionEvent e) {
 
                 ////Создаем элемент jFileChooser для возможности выбора пути
-                JFileChooser jFileChooser = new JFileChooser("C:\\Users\\dania\\IdeaProjects\\KATA\\src\\Labs\\Var2\\Lab9");
+                JFileChooser jFileChooser = new JFileChooser();
                 //Вызываем диалоговое окно для открытия файла
                 int i = jFileChooser.showOpenDialog(null);
                 if(i == JFileChooser.APPROVE_OPTION){
