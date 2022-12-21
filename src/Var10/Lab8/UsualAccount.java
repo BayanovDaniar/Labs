@@ -18,6 +18,11 @@ public class UsualAccount extends Account {
         this.setBalance(getBalance() - amount);
     }
 
-
-
+    @Override
+    public String toString() {
+        return "UsualAccount{" + "number='" + getNumber() + '\'' +
+                ", pin_code='" + getPin_code() + '\'' +
+                ", balance=" + getBalance() +
+                "}";
+    }
 }
